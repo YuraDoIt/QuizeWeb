@@ -7,7 +7,7 @@ function buildQuiz(){
 
     myQuestion.forEach(
         (currentQuestion, questionNumber) => {
-            const answer = [];
+            const answers = [];
 
             for(letter in currentQuestion.answers){
 
@@ -68,3 +68,6 @@ const myQuestion = [
         correctAnswer: "b"
     }
 ];
+
+
+//some changes
